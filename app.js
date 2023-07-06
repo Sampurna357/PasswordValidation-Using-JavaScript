@@ -113,3 +113,14 @@ var validation=(event)=>{
   
 
  }*/
+ var render=()=>{
+    var str=document.querySelector("#submit").value;
+    if((str=="Yes")||(str=="yes")||(str=="YEs")||(str=="YES")||(str=="yEs")||(str=="yeS")||(str=="yES"))
+    {
+        location.reload();
+    }
+    if((str=="No")||(str=="NO")||(str=="no")||(str=="nO"))
+    {
+        location.reload();
+    }
+ }
